@@ -1,3 +1,8 @@
+//Group Members
+//Samantha Lafrance, Taris Green, Darrell Brown
+//File Name: Song.cpp
+//Purpose: Driver file of program
+//Date Last Edited: 12/5/19
 #include <iostream>
 #include <string>
 #include "Playlist.h"
