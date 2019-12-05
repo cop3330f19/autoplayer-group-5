@@ -2,7 +2,7 @@
 //Samantha Lafrance, Taris Green, Darrell Brown
 //File Name: Song.cpp
 //Purpose: Implementation of Song.h
-//Date Last Edited: 12/1/19
+//Date Last Edited: 12/5/19
 
 #include<iostream>
 #include <string>
@@ -11,14 +11,14 @@
 using namespace std;
 
 //Default
-Song::Song() 
+Song::Song()
 {
     this->title = "";
     this->artist = "";
 }
 
 //Song Constructor with parameters
-Song::Song(string title, string artist, string album, int length, int year) 
+Song::Song(string title, string artist, string album, int length, int year)
 {
     this->title = title;
     this->artist = artist;
@@ -28,56 +28,56 @@ Song::Song(string title, string artist, string album, int length, int year)
 }
 
 //Song Title
-void Song::setTitle(string title) 
+void Song::setTitle(string title)
 {
     this->title = title;
 }
 
-void Song::getTitle() const 
+void Song::getTitle() const
 {
     return title;
 }
 
 //Song Artist
-void Song::setArtist(string artist) 
+void Song::setArtist(string artist)
 {
     this->artist = artist;
 }
 
-void Song::getArtist() const 
+void Song::getArtist() const
 {
     return artist;
 }
 
 //Song Album
-void Song::setAlbum(string album) 
+void Song::setAlbum(string album)
 {
     this->album = album;
 }
 
-void Song::getAlbum() const 
+void Song::getAlbum() const
 {
     return album;
 }
 
 //Song Length
-void Song::setLength(int length) 
+void Song::setLength(int length)
 {
     this->length = length;
 }
 
-void Song::getLength() const 
+void Song::getLength() const
 {
     return length;
 }
 
 //Song Year
-void Song::setYear(int year) 
+void Song::setYear(int year)
 {
     this->year = year;
 }
 
-void Song::getYear() const 
+void Song::getYear() const
 {
     return year;
 }
